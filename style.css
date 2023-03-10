@@ -206,3 +206,45 @@ nav .signup:hover,
   border: 1px solid var(--primary-color-darker);
   color: var(--primary-color-darker);
 }
+
+#hero .features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.875rem;
+  margin-top: 5rem;
+}
+
+#hero .features > div {
+  display: flex;
+  flex-direction: column;
+  padding: 2.1875rem 2.5rem;
+  gap: 1.25rem;
+  background: #ffffff;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+#hero .features > div img {
+  width: 4.5rem;
+}
+
+#hero .features > div h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  color: var(--text-color);
+}
+
+#hero .features > div div {
+  height: 2px;
+  background: var(--danger-color);
+  width: 3.125rem;
+}
+
+#hero .features > div p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.2px;
+  /* second-text-color */
+  color: var(--second-text-color);
+}
