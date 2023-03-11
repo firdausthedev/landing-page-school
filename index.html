@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>School Solved</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <header>
       <nav class="container">
         <div class="nav-wrapper">
           <span class="logo">BrandName</span>
+          <div class="hamburger"></div>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" class="text-sm">Home</a></li>
+            <li><a href="#product" class="text-sm">Product</a></li>
+            <li><a href="#pricing" class="text-sm">Pricing</a></li>
+            <li><a href="#contact" class="text-sm">Contact</a></li>
           </ul>
         </div>
         <div>
-          <span class="login">Login</span>
-          <button class="custom-btn signup" type="button" aria-label="Sign Up">
+          <span class="login text-sm">Login</span>
+          <button
+            class="custom-btn signup text-sm"
+            type="button"
+            aria-label="Sign Up">
             Sign Up
             <svg
               width="12"
@@ -61,10 +65,13 @@
               <button
                 type="button"
                 aria-label="Get Quote Now"
-                class="custom-btn">
+                class="custom-btn text-sm">
                 Get Quote Now
               </button>
-              <button type="button" aria-label="Learn More" class="custom-btn">
+              <button
+                type="button"
+                aria-label="Learn More"
+                class="custom-btn text-sm">
                 Learn More
               </button>
             </div>
@@ -111,7 +118,7 @@
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
-        <a href="#"
+        <a href="#" class="text-sm"
           >Learn More
           <svg
             width="10"
@@ -147,7 +154,7 @@
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
-        <a href="#"
+        <a href="#" class="text-sm"
           >Learn More
           <svg
             width="10"
@@ -213,7 +220,7 @@
       <div class="product-list">
         <div class="product">
           <div class="thumbnail">
-            <span>Sale</span>
+            <span class="text-sm">Sale</span>
             <div class="icons">
               <img src="images/like.svg" alt="like icon" />
               <img src="images/basket.svg" alt="like icon" />
@@ -238,7 +245,10 @@
               <h5>$16.48</h5>
               <h5>$6.48</h5>
             </div>
-            <button type="button" class="custom-btn" aria-label="Learn More">
+            <button
+              type="button"
+              class="custom-btn text-sm"
+              aria-label="Learn More">
               Learn More
               <svg
                 width="10"
@@ -268,7 +278,7 @@
         </div>
         <div class="product">
           <div class="thumbnail">
-            <span>Sale</span>
+            <span class="text-sm">Sale</span>
             <div class="icons">
               <img src="images/like.svg" alt="like icon" />
               <img src="images/basket.svg" alt="like icon" />
@@ -293,7 +303,10 @@
               <h5>$16.48</h5>
               <h5>$6.48</h5>
             </div>
-            <button type="button" class="custom-btn" aria-label="Learn More">
+            <button
+              type="button"
+              class="custom-btn text-sm"
+              aria-label="Learn More">
               Learn More
               <svg
                 width="10"
@@ -323,7 +336,7 @@
         </div>
         <div class="product">
           <div class="thumbnail">
-            <span>Sale</span>
+            <span class="text-sm">Sale</span>
             <div class="icons">
               <img src="images/like.svg" alt="like icon" />
               <img src="images/basket.svg" alt="like icon" />
@@ -348,7 +361,10 @@
               <h5>$16.48</h5>
               <h5>$6.48</h5>
             </div>
-            <button type="button" class="custom-btn" aria-label="Learn More">
+            <button
+              type="button"
+              class="custom-btn text-sm"
+              aria-label="Learn More">
               Learn More
               <svg
                 width="10"
@@ -378,7 +394,7 @@
         </div>
         <div class="product">
           <div class="thumbnail">
-            <span>Sale</span>
+            <span class="text-sm">Sale</span>
             <div class="icons">
               <img src="images/like.svg" alt="like icon" />
               <img src="images/basket.svg" alt="like icon" />
@@ -403,7 +419,10 @@
               <h5>$16.48</h5>
               <h5>$6.48</h5>
             </div>
-            <button type="button" class="custom-btn" aria-label="Learn More">
+            <button
+              type="button"
+              class="custom-btn text-sm"
+              aria-label="Learn More">
               Learn More
               <svg
                 width="10"
@@ -496,8 +515,15 @@
           </p>
         </div>
         <form>
-          <input type="email" placeholder="Your email" name="email" />
-          <button type="button" class="custom-btn" aria-label="Subscribe">
+          <input
+            type="email"
+            placeholder="Your email"
+            name="email"
+            class="text-sm" />
+          <button
+            type="button"
+            class="custom-btn text-sm"
+            aria-label="Subscribe">
             Subscribe
           </button>
         </form>
@@ -570,5 +596,6 @@
         </div>
       </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
