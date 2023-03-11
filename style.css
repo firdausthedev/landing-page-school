@@ -519,6 +519,7 @@ section .info p {
 }
 .testimonial-item .card-content p {
   text-align: center;
+  width: 320px;
 }
 
 .testimonial-item .card-content .ratings {
